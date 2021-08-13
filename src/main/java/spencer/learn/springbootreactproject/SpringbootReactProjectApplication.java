@@ -22,5 +22,6 @@ public class SpringbootReactProjectApplication implements CommandLineRunner {
 		this.userRepository.save(new User("Ramesh","Fadatare","ramesh@gmail.com"));
 		this.userRepository.save(new User("Tom","Cruise","tom@gmail.com"));
 		this.userRepository.save(new User("Tony","Stark","tony@gmail.com"));
+		this.userRepository.save(new User("Walter","White","heisenberg@gmail.com"));
 	}
 }

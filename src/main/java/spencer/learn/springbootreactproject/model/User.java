@@ -21,15 +21,16 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    private String email;
+    @Column(name="email_id")
+    private String emailId;
 
     public User(){
     }
 
-    public User(String firstName, String lastName, String email) {
+    public User(String firstName, String lastName, String emailId) {
         super();
         this.firstName = firstName;
         this.lastName = lastName;
-        this.email = email;
+        this.emailId = emailId;
     }
 }
